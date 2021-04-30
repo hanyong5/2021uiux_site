@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $(".slider").bxSlider();
+  $(".slider").bxSlider({
+    pager:false,
+  });
 });
