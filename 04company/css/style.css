@@ -52,8 +52,9 @@
 
 
 /* content */
+.content{position: relative;background: #f00;height: 970px;}
 .content .contList{
-  width: 1240px;margin: 0 auto;display:flex;flex-wrap:wrap;position: relative;
+  width: 1240px;margin: 0 auto;display:flex;flex-wrap:wrap;position: absolute;left:50%;transform: translateX(-50%);top:-310px
 }
 .content .contList>li{width: 25%;height: 310px;font-size:2rem;}
 .content .contList>li:nth-child(2n+1){background:skyblue;}
